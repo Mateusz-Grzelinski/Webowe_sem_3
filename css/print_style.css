@@ -1,0 +1,16 @@
+body {
+  background-color: white !important;
+  color: black !important;
+}
+
+.content {
+  left: 0px;
+}
+
+.menu {
+  display: none !important;
+}
+
+img {
+  filter: grayscale(100%) !important;
+}

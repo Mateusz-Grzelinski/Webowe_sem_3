@@ -1,0 +1,31 @@
+
+/*formatowanie tabli:*/
+
+table thead th{
+  text-transform: uppercase;
+}
+
+#tab {
+  color: white;
+  background-color: black;
+  border-color: pink;
+}
+
+#tab thead {
+  color: yellow;
+  background-color: purple;
+}
+
+#tab caption {
+  color: black;
+}
+
+.col1 {
+  color: rgb(19, 237, 121);
+  background-color: #5fa29c;
+}
+
+#th1 {
+  color: white;
+  background-color: blue;
+}

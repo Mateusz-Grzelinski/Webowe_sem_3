@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Lab JS</title>
+
+		<script type="text/javascript">
+            function mojaFunkcja(tekst) {
+                console.log('Wywołanie funkcji z parametrem: ' + tekst);
+            }
+
+            function akapit() {
+                var nowyAkapit = document.createElement('p');
+                nowyAkapit.innerHTML = "dodano akapit";
+                nowyAkapit.style.background = "rgb(" + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ')';
+                nowyAkapit.onclick = fe;
+                nowyAkapit.onmouseover = changecol;
+                document.body.append(nowyAkapit);
+            }
+
+            function fe(ea) {
+                alert(ea.target.style.background);
+            }
+
+            function changecol(e) {
+                e.target.style.background = "rgb(" + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ',' + Math.round(Math.random() * 255) + ')';
+            }
+		</script>
+
+
+	</head>
+	<body>
+		<form>
+			<p id="akapit"><input type="button" value="Rysuj!" onclick="akapit()"></p>
+		</form>
+		<div onclick="alert('OMG! They clicked Kenny!');">Kenny</div>
+		<div onclick="alert(fe)">Kenny</div>
+	</body>
+</html>
+
+

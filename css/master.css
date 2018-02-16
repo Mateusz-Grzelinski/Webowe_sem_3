@@ -1,0 +1,159 @@
+html, body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-color: rgb(146, 189, 252);
+}
+
+h1 {
+  color: green;
+  font-family: Verdana;
+  text-align: center;
+}
+
+h1:first-letter {
+  text-transform: capitalize;
+}
+
+h2 {
+  color: red;
+}
+
+h3 {
+  color: pink;
+}
+
+p {
+  text-indent: 1.5em;
+  /*font: 80% sans-serif*/
+}
+
+p:first-letter {
+  color: red;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+ol::first-letter {
+  text-transform: capitalize;
+}
+
+ol:hover {
+  color: purple;
+}
+
+ul {
+  list-style-type: lower-roman;
+}
+
+ul ul {
+  list-style-type: lower-greek;
+  /*color: blue;*/
+}
+
+img {
+  border: 5px solid rgb(86, 203, 238);
+  padding: 2px;
+  margin: 7px;
+  border-radius: 10%;
+  background-color: grey;
+  width: 300px;
+  max-width: 50%;
+}
+
+img:hover {
+  box-shadow: 0 0 10px 10px rgba(1, 55, 73, 0.5);
+  cursor: wait;
+}
+
+a:hover {
+  cursor: default;
+}
+
+.container {
+  max-width: 960px;
+  position: relative;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  float: left;
+  padding: 10px;
+  width: auto;
+  position: absolute;
+  background-color: rgba(144, 68, 119, 0.34);
+  left: 200px;
+}
+
+.menu {
+  float: left;
+  background-color: #f1f1f1;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+}
+
+.menu ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.menu ol {
+  border: 1px solid #555;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.menu ul {
+  border: 1px solid #555;
+}
+
+.menu li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.menu li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #555;
+  color: white;
+  cursor: default;
+}
+
+.others {
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+#w3c {
+  height: 31px;
+  width: 88px;
+}

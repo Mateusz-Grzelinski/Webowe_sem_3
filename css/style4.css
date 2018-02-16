@@ -1,0 +1,42 @@
+/*div {
+  display: inline-block;
+}*/
+.img_container {
+  width: 49%;
+  vertical-align: top;
+  display: inline-block;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+
+#kotek {
+  float: left;
+}
+
+#nietoperz {
+  /*display: block;*/
+  /*width: 50%;*/
+  float: right;
+}
+
+/*.dwa_kotki {
+  float: right;
+  display: inline-block;
+}*/
+
+#kotek2 {
+  margin-right: 20px;
+  width: 50px;
+  display: inline-block;
+  float: left;
+}
+
+#kotek3 {
+  width: 50px;
+  float: right;
+  display: inline-block;
+}
+
+.text {
+  display: inline-block;
+}
